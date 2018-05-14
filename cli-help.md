@@ -24,3 +24,7 @@ install.packages(c("slidify", "ggplot2","devtools"))
 source("http://bioconductor.org/biocLite.R")
 biocLite()
 biocLite(c("GenomicFeatures","AnnotationDbi"))
+
+# to load packages
+
+library(ggplot2)
