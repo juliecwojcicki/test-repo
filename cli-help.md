@@ -25,6 +25,9 @@ source("http://bioconductor.org/biocLite.R")
 biocLite()
 biocLite(c("GenomicFeatures","AnnotationDbi"))
 
+Install rtools, then reboot RStudio before installing devtools
+install.packgaes(devtools)
+
 # to load packages
 
 library(ggplot2)

@@ -1,2 +1,5 @@
 library(ggplot2)
 search()
+library(devtools)
+find_rtools()
+library(KernSmooth)
