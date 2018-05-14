@@ -16,3 +16,11 @@ $ git show-ref
 ## more help on
 <https://stackoverflow.com/questions/4855561/difference-between-git-remote-add-and-git-clone?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa>
 
+# history (installation of packages)
+
+a <- available.packages()
+head(rownames(a),3)
+install.packages(c("slidify", "ggplot2","devtools"))
+source("http://bioconductor.org/biocLite.R")
+biocLite()
+biocLite(c("GenomicFeatures","AnnotationDbi"))
