@@ -31,3 +31,10 @@ install.packgaes(devtools)
 # to load packages
 
 library(ggplot2)
+
+# git push/pull instructions
+$ cd git-repos/test-repo/
+$ git pull
+$ git add .
+$ git commit -m "comments"
+$ git push
